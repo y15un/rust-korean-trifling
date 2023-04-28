@@ -1,5 +1,5 @@
 use std::convert::TryFrom;
-use unicode_korean_multitool::Syllable;
+use unikorn::Syllable;
 
 pub fn flip_chojongseong_horizontally(source: &str) -> String {
     let mut destination = String::with_capacity(source.len());

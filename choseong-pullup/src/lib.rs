@@ -1,5 +1,5 @@
 use std::convert::TryFrom;
-use unicode_korean_multitool::{Choseong, Jongseong, Syllable};
+use unikorn::{Choseong, Jongseong, Syllable};
 
 // how to interpret (jongseong_a, choseong_b, jongseong_c, extended)
 // => when the current syllable has `jongseong_a` and the next syllable has 'choseong_b',

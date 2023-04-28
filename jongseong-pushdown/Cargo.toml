@@ -1,11 +1,14 @@
 [package]
 name = "jongseong-pushdown"
-description = "종성 내려 쓰기 in Rust"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["ylsun <y15un@y15un.dog>"]
+edition = "2021"
+rust-version = "1.56.0"
+description = "종성 내려 쓰기 in rust"
 license = "MIT"
-edition = "2018"
+keywords = ["korean", "language"]
+categories = ["text-processing"]
 workspace = "../"
 
 [dependencies]
-unicode-korean-multitool = { path = "../unicode-korean-multitool", version = "0.2" } # MIT
+unikorn = { git = "https://github.com/y15un/unikorn-rs.git", tag = "v0.1.0" } # use git until we publish unikorn to crates-io; MIT
